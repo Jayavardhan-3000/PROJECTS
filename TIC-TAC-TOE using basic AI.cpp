@@ -24,7 +24,6 @@ void print(char arr[]) {
     }
 }
 
-// ... rest of your original code unchanged ...
 
 bool result(char arr[], char player) {
     for (int i = 0; i < 9; i += 3)
@@ -106,8 +105,7 @@ void loop(int *p, int *q, int y, int o) {
                 }
             }
         }
-
-        system("CLS"); // or system("clear"); for Linux/Mac
+        system("CLS"); 
         print(arr);
 
         if (result(arr, 'X')) {
